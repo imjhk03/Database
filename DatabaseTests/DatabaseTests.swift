@@ -28,7 +28,7 @@ class DatabaseTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure(_:) {
             // Put the code you want to measure the time of here.
         }
     }
